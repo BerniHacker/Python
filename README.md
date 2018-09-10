@@ -6,3 +6,4 @@ File Name and Description                                             | File Lin
 --------------------------------------------------------------------- | ----------
 <code>MaxAndMinNumber.py</code> A simple Python script using conditional statements and loops | <sub>https://github.com/BerniHacker/Python/blob/master/MaxAndMinNumber.py</sub>
 <code>ComputePay.py</code> A simple Python script using a function | <sub>https://github.com/BerniHacker/Python/blob/master/CalculatePay.py</sub>
+<code>WorkingWithFiles.py</code> A simple Python script using a file | <sub>https://github.com/BerniHacker/Python/blob/master/WorkingWithFiles.py</sub>
