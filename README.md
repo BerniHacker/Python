@@ -14,3 +14,5 @@ File Name and Description                                             | File Lin
 <code>WorkingWithLists.py</code> A simple Python script using lists | <sub>https://github.com/BerniHacker/Python/blob/master/WorkingWithLists.py</sub>
 
 Go back to the main CV page: https://github.com/BerniHacker/CV/blob/master/README.md
+
+http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/A_Prediction_Model_Project_in_R.html
