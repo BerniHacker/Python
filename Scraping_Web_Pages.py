@@ -11,11 +11,12 @@
 ### it is a bit harder to make this working with Jupyter Notebook.
 
 ### The program uses urllib to read HTML from a dynamically provided URL, 
-### scans for an anchor tag that is in a dynamically provided position from the top of the page, 
-### extracts the href= value from the tags and follows that link. 
+### scans for an anchor tag that is in a dynamically provided position from 
+### the top of the page, extracts the href= value from the tags and follows that link. 
 ### The program repeats the process a dynamically provided number of times and 
 ### prints the visible text behind the last found link.
-### Validation of user input is performed and if it is negative the program asks again for input.
+### Validation of user input for the position and the number of iterations is performed 
+### and, if it is negative, the program shows an error message and asks again the value.
 
 ## Setup
 # Importing the needed libraries
@@ -36,20 +37,24 @@ while True:
     try:
         pos = int(position) # Converting from string to integer
     except:
-        print('Invalid input (not integer)') # Printing an error message if the user does not insert a integer number
+        # Printing an error message if the user does not insert a integer number
+        print('Invalid input (not integer)') 
         continue # Allowing a new attempt
     if pos < 1: # Validating the range
-        print('Invalid range (negative number or zero)') # Printing an error message if the user does not insert a positive integer number
+        # Printing an error message if the user does not insert a positive integer number
+        print('Invalid range (negative number or zero)') 
         continue # Allowing a new attempt
     # Asking for the wished number of iterations
     iterations = input('Enter the wished number of iterations (integer >= 1): ')
     try:
         iterat = int(iterations) # Converting from string to integer
     except:
-        print('Invalid input (not integer)') # Printing an error message if the user does not insert a integer number
+        # Printing an error message if the user does not insert a integer number
+        print('Invalid input (not integer)') 
         continue # Allowing a new attempt
     if iterat < 1: # Validating the range
-        print('Invalid range (negative number or zero)') # Printing an error message if the user does not insert a positive integer number
+        # Printing an error message if the user does not insert a positive integer number
+        print('Invalid range (negative number or zero)') 
         continue # Allowing a new attempt
     break # Exiting the loop    
 
