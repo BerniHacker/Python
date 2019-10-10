@@ -149,11 +149,11 @@ def dataframe_storage(dataframe, file_name):
 
 
 # Welcome message
-print "\nThis script queries all the entries of the", TABLE, "table in "\
-      "the \n", DATABASE, "database, stores them temporarily into a pandas "\
+print ("\nThis script queries all the entries of the {} table in "\
+      "the \n{} database, stores them temporarily into a pandas "\
       "dataframe and \nthen dumps the content of the dataframe into the "\
-      "file", FILE_NAME, ".\n"\
-      "Both the SQL query and the dump into the CSV file are done in chunks.\n"
+      "file {}.\nBoth the SQL query and the dump into the CSV file are done "\
+      "in chunks.\n".format(TABLE, DATABASE, FILE_NAME))
 
 # Storing and printing the script start time
 start_time = dt.datetime.utcnow()
